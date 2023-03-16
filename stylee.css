@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+.row{
+     background-color: white;
+     border-radius: 30px;
+     box-shadow: 12px 12px 27px;
+     width: auto;
+     height: 37.5rem;
+ }
+img{
+     width: 130%;
+     height: 37.5rem;
+     border-top-left-radius: 290px;
+     border-bottom-right-radius: 290px;
+     border-top-right-radius: 30px;
+     border-bottom-left-radius: 30px;
+ }
+.login h1{
+    font-size: 3rem;
+    font-weight: 300;
+ }
+.inp{
+    height: 50px;
+    width: 55%;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: -26px -19px 30px -19px rgba(0, 0, 0, 0.45);
+    background: radial-gradient(circle, rgba(103,178,241,1) 9%, rgba(150,233,148,1) 61%);
+ }
+ 
+.btn1{
+     width: 200px;
+     height: 40px;
+     border: none;
+     border-radius: 60px;
+     background-color: #0a9e97;
+     color: white;
+ }
+.btn1:hover{
+     background-color:#27bb94 ;
+     transition: linear 0.5s;
+ }
+
+.fa-facebook{
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    color: #3b5998 ;
+
+}
+
+.fa-facebook:hover{
+    background-color: #3b5998;
+    color: white;
+
+ }
+ .fa-google{
+     padding: 10px;
+     font-size: 30px;
+     color: rgb(214,41,118);
+    
+ }
+ .fa-google:hover{
+     background-color: #DB4437;
+     color: white;
+  }
+ .fa-instagram{
+     padding: 10px;
+     font-size: 30px;
+     color: rgb(214,41,118);
+ }
+ .fa-instagram:hover{
+     color: white;
+     background-color: rgb(214,41,118);
+  }
+ .fa-twitter{
+     padding: 10px;
+     font-size: 30px;
+     color: #00acee;
+ }
+ .fa-twitter:hover{
+     color: white;
+     background-color:  #00acee;
+  }
+ .fa-envelope{
+     padding: 10px;
+     font-size: 30px;
+     color: #e2a564;
+ }
+ .fa-envelope:hover{
+     color: white;
+     background-color: #e2a564;
+  }
+  p{
+     padding-top: 25px;
+     color: rgb(3, 39, 41);
+     font-size: 1.10rem;
+     font-weight: 480;
+  }
+  p:hover{
+   cursor: pointer;
+   text-decoration: underline;
+   font-weight: 550;
+ }
+
